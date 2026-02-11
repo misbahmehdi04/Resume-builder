@@ -1,31 +1,32 @@
 :root {
-    /* Teal Color Palette - Inspired by Shutterstock */
-    --teal-primary: #008080;        /* Deep Teal */
-    --teal-dark: #006666;          /* Dark Teal */
-    --teal-light: #00a3a3;         /* Light Teal */
-    --teal-bright: #00cccc;        /* Bright Teal */
-    --teal-pale: #b2d8d8;          /* Pale Teal */
+    /* Pink Color Palette */
+    --teal-primary: #e91e63;        /* Deep Pink */
+    --teal-dark: #c2185b;           /* Dark Rose */
+    --teal-light: #f06292;          /* Soft Pink */
+    --teal-bright: #ff80ab;         /* Bright Pink */
+    --teal-pale: #f8bbd0;           /* Pale Blush */
     
     /* Complementary Colors */
-    --coral: #ff6b6b;              /* Coral Accent */
-    --coral-light: #ff9e9e;
-    --mustard: #ffd166;            /* Mustard Yellow */
-    --mustard-light: #ffe5b4;
-    --navy: #1a535c;               /* Navy Blue */
-    --slate: #4a6670;              /* Slate Blue */
+    --coral: #ff4081;               /* Hot Pink Accent */
+    --coral-light: #ff79a8;
+    --mustard: #ffb6c1;             /* Light Pink Highlight */
+    --mustard-light: #ffd6e0;
+    --navy: #6a1b4d;                /* Plum */
+    --slate: #8e5a73;               /* Dusty Rose */
     
     /* Neutrals */
     --white: #ffffff;
-    --off-white: #f8f9fa;
-    --light-gray: #e9ecef;
-    --gray: #adb5bd;
-    --dark-gray: #495057;
-    --black: #212529;
+    --off-white: #fff5f9;
+    --light-gray: #f3dce6;
+    --gray: #c48aa4;
+    --dark-gray: #6d3b52;
+    --black: #2a1a22;
     
     /* UI Elements */
-    --shadow: rgba(0, 128, 128, 0.15);
-    --shadow-dark: rgba(0, 102, 102, 0.25);
+    --shadow: rgba(233, 30, 99, 0.15);
+    --shadow-dark: rgba(194, 24, 91, 0.25);
 }
+
 
 /* Global Styles */
 * {
@@ -112,7 +113,7 @@ input {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     font-family: inherit;
 }
-
+.hero
 input:focus {
     border-color: var(--teal-primary);
     background: var(--white);
